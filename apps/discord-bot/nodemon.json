@@ -1,0 +1,7 @@
+{
+  "$schema": "https://www.schemastore.org/nodemon.json",
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["dist", "node_modules"],
+  "exec": "ts-node -r dotenv/config ./src/index.ts"
+}

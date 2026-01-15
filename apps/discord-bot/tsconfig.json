@@ -1,0 +1,29 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "extends": "@djcayz/typescript-config/base.json",
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "types": ["node"],
+
+    // Other Outputs
+    "sourceMap": true,
+
+    // Stricter Typechecking Options
+    "exactOptionalPropertyTypes": true,
+
+    // Recommended Options
+    "verbatimModuleSyntax": true,
+    "noUncheckedSideEffectImports": true,
+    "rewriteRelativeImportExtensions": true,
+
+    // Import Alias
+    "baseUrl": "./src",
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}
