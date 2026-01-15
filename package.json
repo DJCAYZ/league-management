@@ -1,5 +1,5 @@
 {
-  "name": "league-manager",
+  "name": "league-management",
   "private": true,
   "scripts": {
     "build": "turbo run build",
